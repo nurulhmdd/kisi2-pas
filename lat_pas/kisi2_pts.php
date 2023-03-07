@@ -9,16 +9,16 @@ else{
 
 
 ?>
-<br>``
+<br>
 <?php
 $nasabah ="kelas2";
 if($nasabah == "vip"){
     echo "atm,buku tabungan,M-Banking,menjadi prioritas";
 }
-elseif($nasabah ="kelas1"){
+elseif($nasabah =="kelas1"){
     echo "atm,buku tabungan,M-Banking";
 }
-elseif($nasabah ="kelas2"){
+else{
     echo "atm,buku tabungan";
 }
 ?>
@@ -40,6 +40,6 @@ for($i =3; $i <= 60; $i=$i+3){
 <?php
 $perusahaan =array('Toyota','Daihatsu','Honda','Ford','Ferari');
 echo $perusahaan[3]."<br>";
-echo $perusahaan[1]."dan".$perusahaan[2]
+echo $perusahaan[1]." dan ".$perusahaan[2]
 
 ?>
